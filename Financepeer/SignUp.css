@@ -1,0 +1,115 @@
+body {
+  background-image: url("IndexBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.SignUp {
+  margin-top: 50px;
+  margin-left: 60%;
+  width: 370px;
+  height: 530px;
+  background-color: #F2F3F4 ;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.SignUp a {
+  text-decoration: none;
+  color: #117A65;
+}
+
+.head {
+  font-size: 30px;
+  margin-left: 10%;
+  font-family: font-family: 'IBM Plex Serif', serif;
+}
+
+.foot {
+  margin-left: 65px;
+}
+
+.signUpForm {
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  margin-left: 25px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:#E9F7EF;
+  color: #0B5345;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #117A65;
+  color: white;
+}
+input[type=text], input[type=email ], input[type=password] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+header {
+  height: 60px;
+  background-color: #E9F7EF;
+  padding: 5px;
+  margin-top: -7.65px;
+  margin-left: -7.65px;
+  margin-right: -7.65px;
+}
+
+nav {
+  background-color: inherit;
+  float: right;
+  width: 155px;
+  height: 40px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  padding: 10px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #0B5345;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #117A65;
+  color: white;
+}
+
+.error {
+    color: white;
+    font-size: 8px;
+    font-weight: bolder;
+    margin-left: 5px;
+    background: crimson;
+    padding: 3px 5px;
+    border-radius: 100%;
+    font-family: monospace;
+    display: none;
+}
