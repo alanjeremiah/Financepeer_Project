@@ -12,7 +12,8 @@ Steps involved:
 
 The project uses the XAMPP php development platfrom.
 
-To run the project. Install XAMPP from here https://www.wikihow.com/Install-XAMPP-for-Windows
-Open XAMPP and start the apache server and MySQL
-Place the Financepeer folder in the xampp/htdocs/ place_here.
-Open the browser and type http://localhost/Financepeer/index.php
+1. To run the project. Install XAMPP from here https://www.wikihow.com/Install-XAMPP-for-Windows
+2. Open XAMPP and start the apache server and MySQL
+3. Place the Financepeer folder in the xampp/htdocs/ place_here.
+4. Open the browser and type http://localhost/Financepeer/index.php
+
